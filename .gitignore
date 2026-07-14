@@ -1,0 +1,24 @@
+# Pipeline audit artifacts — internal only, do not publish
+FORK_REPORT.md
+SANITIZATION_REPORT.md
+
+# Local env
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Sample/output media
+*.mp4
+*.mov
+*.mkv
+*.ass
