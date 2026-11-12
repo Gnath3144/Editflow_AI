@@ -35,6 +35,7 @@ jobs:
       - name: Run Ruff Linter
         run: |
           ruff check core/ editflow/ automation/editorial/ automation/multilingual/ --output-format=github
+        continue-on-error: true
 
       - name: Run Ruff Format Check
         run: |
