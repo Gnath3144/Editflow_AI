@@ -8,4 +8,4 @@
 - Integrated YouTube Publisher and Thumbnail Generator (`automation/youtube/`, `automation/thumbnail_generation/`).
 - Implemented core framework: `filesystem.paths`, `configuration.config_manager`, `logging.logger`, `job_manager.jobs`, `manifest_manager.manifests`.
 - Unified command-line interface (`editflow` / `python -m editflow`).
-- Preserved existing Git history and remote origin (`https://github.com/respectfulnrespected59-source/qmm-autoedit`).
+- Remote origin configured to (`https://github.com/Gnath3144/Editflow_AI.git`).

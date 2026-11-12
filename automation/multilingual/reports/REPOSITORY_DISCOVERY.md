@@ -2,7 +2,7 @@
 **Codealytica Video PostProduction Repository**
 
 - **Repository Root:** `D:\Codealytica\Video_PostProduction`
-- **Remote Origin:** `https://github.com/respectfulnrespected59-source/qmm-autoedit`
+- **Remote Origin:** `https://github.com/Gnath3144/Editflow_AI.git`
 - **Active Git Branch:** `main`
 - **Python Runtime:** Python 3.12.8 64-bit (`.venv\Scripts\python.exe`)
 - **Report Date:** 2026-11-12T19:28:00+05:30

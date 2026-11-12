@@ -6,7 +6,7 @@ project by design — please keep contributions in that spirit.
 ## Development Setup
 
 ```bash
-git clone https://github.com/respectfulnrespected59-source/qmm-autoedit.git
+git clone https://github.com/Gnath3144/Editflow_AI.git
 cd autoedit
 ./setup.sh
 ```

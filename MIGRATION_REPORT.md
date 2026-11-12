@@ -3,7 +3,7 @@
 - **Date:** 2026-11-12T20:00:00+05:30
 - **Central Project Directory:** `D:\Codealytica\Editflow AI`
 - **Source Environment:** `D:\Codealytica\Video_PostProduction` & `D:\Codealytica\YouTube_Publisher`
-- **GitHub Repository:** `https://github.com/respectfulnrespected59-source/qmm-autoedit`
+- **GitHub Repository:** `https://github.com/Gnath3144/Editflow_AI.git`
 - **Target Branch:** `main`
 - **Python Virtual Environment:** `D:\Codealytica\Editflow AI\.venv` (Python 3.12.8 64-bit)
 
@@ -98,7 +98,7 @@ Old hardcoded references were unified into `core/filesystem/paths.py`:
 ## F. Git & GitHub Preservation
 
 - **Repository Root:** `D:\Codealytica\Editflow AI`
-- **Remote URL:** `https://github.com/respectfulnrespected59-source/qmm-autoedit`
+- **Remote URL:** `https://github.com/Gnath3144/Editflow_AI.git`
 - **Current Branch:** `main`
 - **Git History:** 100% of commits, branches, and tags preserved intact.
 - **Git Status:** Clean and unmodified baseline (`.gitignore`, `.env.example`, `README.md` tracked; all new modules cleanly staged or organized under untracked trees).
