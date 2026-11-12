@@ -1,0 +1,70 @@
+name: Release Management
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'Version tag (e.g. v1.0.0)'
+        required: true
+        default: 'v1.0.0'
+      release_title:
+        description: 'Release Title'
+        required: true
+        default: 'Editflow AI v1.0.0'
+      prerelease:
+        description: 'Mark as pre-release'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    name: Build Distribution & Publish Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Build Tooling
+        run: |
+          python -m pip install --upgrade pip build wheel
+
+      - name: Build Python Package
+        run: |
+          python -m build
+
+      - name: Extract Release Notes from CHANGELOG
+        id: release_notes
+        run: |
+          python -c "
+          import re
+          with open('CHANGELOG.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+          # Extract first version section
+          match = re.search(r'## \[v?[0-9.]+\][^\n]*\n(.*?)(?=\n## \[|\Z)', content, re.DOTALL)
+          notes = match.group(1).strip() if match else 'Production release for Editflow AI.'
+          with open('RELEASE_NOTES.tmp', 'w', encoding='utf-8') as out:
+              out.write(notes)
+          "
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.inputs.tag_name || github.ref_name }}
+          name: ${{ github.event.inputs.release_title || github.ref_name }}
+          body_path: RELEASE_NOTES.tmp
+          draft: false
+          prerelease: ${{ github.event.inputs.prerelease || false }}
+          files: dist/*

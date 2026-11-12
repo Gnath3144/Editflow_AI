@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use Codealytica Editflow AI in your research or media pipeline, please cite it as below."
+authors:
+  - name: "Codealytica Engineering Team"
+title: "Codealytica Editflow AI: Modular Video Post-Production & Multilingual Localisation Platform"
+version: 1.0.0
+date-released: 2026-11-12
+url: "https://github.com/respectfulnrespected59-source/qmm-autoedit"
+keywords:
+  - "video-automation"
+  - "speech-diarization"
+  - "multilingual-dubbing"
+  - "adaptive-pacing"
+  - "faster-whisper"
+  - "ffmpeg"
+license: MIT

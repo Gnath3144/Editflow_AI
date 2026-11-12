@@ -1,0 +1,50 @@
+name: Feature Request
+description: Propose a new feature, improvement, or capability for Editflow AI
+title: "[FEATURE]: "
+labels: ["feature", "status: needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an enhancement to Editflow AI!
+  - type: dropdown
+    id: module
+    attributes:
+      label: Target Architecture Module
+      options:
+        - "Editorial Intelligence"
+        - "Multilingual Dubbing & Adaptive Pacing"
+        - "TTS / Audio Alignment"
+        - "YouTube Automation & Metadata"
+        - "Thumbnail Generation"
+        - "Worker Pipeline & Orchestration"
+        - "CLI / Developer Experience"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement / Context
+      description: Is your feature request related to a specific problem or workflow bottleneck?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution & Technical Design
+      description: Describe your proposed solution and how it integrates with the existing architecture.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Approaches Considered
+      description: Describe any alternative solutions or workarounds you have considered.
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: What conditions must be satisfied for this feature to be considered complete?
+    validations:
+      required: true

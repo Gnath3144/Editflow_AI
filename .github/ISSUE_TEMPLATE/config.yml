@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Codealytica Documentation Portal
+    url: https://github.com/respectfulnrespected59-source/qmm-autoedit/tree/main/docs
+    about: Read the complete Editflow AI architecture and operations documentation
+  - name: Security Vulnerability Reporting
+    url: https://github.com/respectfulnrespected59-source/qmm-autoedit/security/policy
+    about: Privately report security vulnerabilities according to our Security Policy

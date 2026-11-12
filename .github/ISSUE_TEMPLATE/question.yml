@@ -1,0 +1,17 @@
+name: Question & Architectural Inquiry
+description: Ask a question about Editflow AI architecture, configuration, or usage
+title: "[QUESTION]: "
+labels: ["question", "status: needs-triage"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What would you like to know about Editflow AI?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context & Research
+      description: What documentation or code have you already explored?

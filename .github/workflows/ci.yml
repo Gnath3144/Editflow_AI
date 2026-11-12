@@ -1,0 +1,78 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - main
+      - chore/**
+      - feature/**
+      - fix/**
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      test_scope:
+        description: 'Test scope to run'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - editorial
+          - multilingual
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Test (${{ matrix.os }} - Python ${{ matrix.python-version }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ['3.10', '3.11', '3.12']
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: 'pip'
+
+      - name: Install Base Dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install -r requirements.txt
+
+      - name: Syntax & Compilation Check
+        run: |
+          python -m compileall core/ editflow/ automation/
+
+      - name: Run Editorial Intelligence Tests
+        if: ${{ github.event.inputs.test_scope == 'all' || github.event.inputs.test_scope == 'editorial' || github.event_name != 'workflow_dispatch' }}
+        run: |
+          python -m unittest discover -s automation/editorial/tests -v
+
+      - name: Run Multilingual Localisation Tests
+        if: ${{ github.event.inputs.test_scope == 'all' || github.event.inputs.test_scope == 'multilingual' || github.event_name != 'workflow_dispatch' }}
+        run: |
+          python -m unittest discover -s automation/multilingual/tests -v
+
+      - name: Validate System Configurations
+        run: |
+          python -m editflow validate
+
+      - name: Publish Test Summary to Job Summary
+        if: always()
+        run: |
+          echo "### CI Test Execution Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **Operating System:** ${{ matrix.os }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Python Version:** ${{ matrix.python-version }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Status:** ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+        shell: bash

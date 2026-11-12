@@ -1,64 +1,105 @@
-# Contributing to QMM AutoEdit
+# Contributing to Codealytica Editflow AI
 
-Thanks for your interest in improving AutoEdit. This is a small, single-file
-project by design — please keep contributions in that spirit.
+Thank you for your interest in contributing to **Codealytica Editflow AI**! We welcome community contributions, bug fixes, feature proposals, and documentation enhancements.
 
-## Development Setup
+Please read this document carefully to understand our development workflows, architectural standards, testing requirements, and security obligations.
 
-```bash
-git clone https://github.com/Gnath3144/Editflow_AI.git
-cd autoedit
-./setup.sh
-```
+---
 
-That installs the optional `faster-whisper` dependency and confirms `ffmpeg`/`ffprobe`
-are on your `PATH`. There is no build step — `autoedit.py` runs directly:
+## 1. Code of Conduct
 
-```bash
-python autoedit.py RAW.mp4
-```
+All contributors and maintainers are expected to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). Please treat all members of the community with dignity, empathy, and professional respect.
 
-## Project Philosophy
+---
 
-- **One file, zero required dependencies.** `autoedit.py` is pure stdlib +
-  `subprocess` calls to `ffmpeg`/`ffprobe`. `faster-whisper` is the only optional
-  dependency and must stay optional — if it's missing, the tool should still run
-  (silence-cut + reframe) and skip captions gracefully, never crash or silently no-op.
-- **No GPU requirement.** Every change must keep the tool runnable CPU-only.
-- **Keep it hackable.** Favor small, readable functions over abstractions. A new
-  contributor should be able to read top-to-bottom and understand the whole pipeline.
+## 2. Development Setup
 
-## Branch / PR Workflow
+### Prerequisites
+- **Operating System:** Windows 10/11 64-bit (Production validated), Linux Ubuntu 22.04+ (CI validated)
+- **Python:** Version 3.10, 3.11, or 3.12 (Recommended: Python 3.12.8 64-bit)
+- **FFmpeg & FFprobe:** Version 6.0+ or 7.0+ on system PATH
+- **Git:** Version 2.40+
 
-1. Fork the repo and create a feature branch from `main`.
-2. Make your change. Keep the diff focused — one concern per PR.
-3. Test your change manually against a real video file for at least one mode
-   (`short`, `longform`, `clean`) before opening a PR. There is no automated test
-   suite yet; describe your manual test steps in the PR description.
-4. Open a PR with a clear description of *why* the change is needed, not just *what*
-   changed.
+### Local Environment Setup
+1. Fork or clone the repository:
+   ```bash
+   git clone https://github.com/respectfulnrespected59-source/qmm-autoedit.git
+   cd qmm-autoedit
+   ```
+2. Create and activate a virtual environment:
+   ```powershell
+   # Windows PowerShell
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   ```
+   ```bash
+   # Linux / macOS
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+3. Install dependencies:
+   ```bash
+   python -m pip install --upgrade pip
+   python -m pip install -r requirements.txt
+   ```
+4. Verify system health:
+   ```bash
+   python -m editflow health
+   ```
 
-## Code Style
+---
 
-- Follow the existing style in `autoedit.py`: type-annotated function signatures,
-  `@dataclass(frozen=True)` for simple value objects, small focused functions.
-- Match PEP 8 conventions. No new dependencies unless clearly justified — this tool's
-  value proposition is "just FFmpeg + one optional pip package."
-- Keep functions small and single-purpose; the file is organized in clearly commented
-  sections (ffmpeg helpers, silence detection, best-clip finder, transcription,
-  render, orchestration, CLI) — add new code to the matching section.
+## 3. Branching Strategy & Git Workflow
 
-## Reporting Issues
+- **Default Branch:** `main` (Production-stable code only)
+- **Branch Naming Conventions:**
+  - `feature/<description>` — New capabilities, provider integrations, or tools
+  - `fix/<description>` — Bug fixes and behavioral corrections
+  - `docs/<description>` — Documentation improvements and guides
+  - `chore/<description>` — CI/CD, dependency updates, and maintenance
+  - `refactor/<description>` — Code reorganization without changing external behavior
 
-Please use the issue templates under `.github/ISSUE_TEMPLATE/`. Include:
+### Workflow
+1. Create a dedicated branch from latest `main`:
+   ```bash
+   git checkout -b feature/adaptive-pacing-v2
+   ```
+2. Make modular, logically atomic commits with clear semantic commit messages:
+   ```bash
+   git commit -m "feat(multilingual): implement token shielding for SQL keywords"
+   ```
+3. Ensure all tests and validation checks pass locally before opening a PR:
+   ```bash
+   python -m editflow validate
+   python -m unittest discover -s automation/editorial/tests
+   python -m unittest discover -s automation/multilingual/tests
+   ```
+4. Push to your branch and submit a Pull Request targeting `main`.
 
-- Your OS, Python version, and `ffmpeg -version` output
-- The exact command you ran
-- Whether `faster-whisper` is installed
-- The full error output or unexpected behavior
+---
 
-## Using Claude Code
+## 4. Coding & Architecture Standards
 
-This repo ships a `CLAUDE.md` with the full architecture and command reference.
-If you're using Claude Code to contribute, it will pick this up automatically —
-start a session with `claude` in the repo root.
+- **PEP 8 & Formatting:** All Python code must be formatted consistently. We use Ruff for linting and style checking.
+- **Type Annotations:** Use explicit type hints (`typing.Optional`, `typing.List`, `typing.Dict`, `pathlib.Path`) for all public function arguments and return types.
+- **Path Resolution:** Never hardcode absolute system paths (e.g. `C:\Users\...`). Always use `core.filesystem.paths.PathManager` or `pathlib.Path` relative to project roots.
+- **Error Handling:** Use structured exceptions defined in `core.error_handling.exceptions`. Never swallow exceptions with bare `except: pass`.
+- **Media Preservation:** Never write code that modifies, re-encodes, or deletes source raw classroom recordings in `D:\Codealytica\*.mp4`. Source files are strictly read-only.
+- **YouTube Privacy:** All automated publishing routines must default video privacy to `UNLISTED`. Never upload as `PUBLIC` automatically.
+
+---
+
+## 5. Submitting Pull Requests
+
+All Pull Requests must:
+1. Complete all sections of the [Pull Request Template](.github/pull_request_template.md).
+2. Pass all automated CI tests and code quality checks.
+3. Include new unit tests for any new modules or modified algorithmic logic.
+4. Update corresponding documentation in `docs/` or module READMEs.
+5. Strictly avoid committing any secrets, API keys, client secrets, or personal tokens.
+
+---
+
+## 6. Security & Vulnerability Reporting
+
+If you discover a security vulnerability or credential leak, **DO NOT** open a public issue. Follow our [Security Policy](SECURITY.md) to report the vulnerability privately.

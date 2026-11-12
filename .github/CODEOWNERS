@@ -1,0 +1,18 @@
+# Codealytica Editflow AI Code Owners
+# Maintainer: respectfulnrespected59-source
+
+# Default global owner for all repository files
+* @respectfulnrespected59-source
+
+# Core architecture and CLI
+/core/ @respectfulnrespected59-source
+/editflow/ @respectfulnrespected59-source
+
+# Editorial & Multilingual Automation
+/automation/editorial/ @respectfulnrespected59-source
+/automation/multilingual/ @respectfulnrespected59-source
+/automation/youtube/ @respectfulnrespected59-source
+/automation/thumbnail_generation/ @respectfulnrespected59-source
+
+# GitHub Actions & CI/CD
+/.github/ @respectfulnrespected59-source

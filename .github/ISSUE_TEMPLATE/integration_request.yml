@@ -1,0 +1,31 @@
+name: Integration Request
+description: Request support for a new third-party provider, model, or publishing target
+title: "[INTEGRATION]: "
+labels: ["enhancement", "status: needs-triage"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Integration Category
+      options:
+        - "Translation Provider (e.g., DeepL, Google Cloud Translation, Azure)"
+        - "TTS Engine (e.g., ElevenLabs, Azure Speech, OpenAI TTS)"
+        - "Speech Diarization / STT (e.g., WhisperX, PyAnnote, AssemblyAI)"
+        - "Publishing Platform (e.g., YouTube, Vimeo, Wistia)"
+        - "Cloud Storage / Asset Ingestion (e.g., S3, Google Cloud Storage)"
+    validations:
+      required: true
+  - type: textarea
+    id: provider_details
+    attributes:
+      label: Provider Information & API Specifications
+      description: Provide documentation links, SDK details, and authentication mechanisms required.
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Pipeline Use Case
+      description: Explain how this integration improves video production throughput or audio quality.
+    validations:
+      required: true

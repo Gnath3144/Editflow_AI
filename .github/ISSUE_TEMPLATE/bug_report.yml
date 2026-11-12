@@ -1,0 +1,74 @@
+name: Bug Report
+description: Report an issue or unexpected behavior in Editflow AI
+title: "[BUG]: "
+labels: ["bug", "status: needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue! Please ensure that you do NOT include sensitive credentials, API keys, client secrets, or private tokens in your report.
+  - type: dropdown
+    id: module
+    attributes:
+      label: Affected Subsystem / Module
+      description: Select the module where the issue occurred.
+      options:
+        - "CLI (`editflow`)"
+        - "Editorial Intelligence (`automation/editorial`)"
+        - "Multilingual Localisation (`automation/multilingual`)"
+        - "Audio Processing / Diarization (`audio_master` / `speaker_diarizer`)"
+        - "YouTube Publisher (`automation/youtube`)"
+        - "Thumbnail Generator (`automation/thumbnail_generation`)"
+        - "End Screen Automation (`automation/video_processing`)"
+        - "Core Architecture (`core/`)"
+        - "Other / Unknown"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment Details
+      description: Specify OS version, Python version, and FFmpeg version.
+      placeholder: "e.g., Windows 11 64-bit, Python 3.12.8, FFmpeg 9.0.2"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem Description
+      description: A clear and concise description of the bug.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction Steps
+      description: Exact commands or actions taken to reproduce the problem.
+      placeholder: |
+        1. Run `python -m editflow health`
+        2. Execute `python -m automation.editorial.core.pipeline_orchestrator ...`
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs Actual Behavior
+      description: What did you expect to happen, and what actually occurred?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Terminal Output / Stack Trace
+      description: Paste relevant log outputs. Strip all personal tokens and secrets!
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Pre-Submission Checklist
+      options:
+        - label: I have verified that no private API keys, client secrets, or credentials are included in this report.
+          required: true
+        - label: I have tested that this issue is reproducible on the latest `main` branch.
+          required: true

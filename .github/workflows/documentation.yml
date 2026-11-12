@@ -1,0 +1,85 @@
+name: Documentation Integrity & Link Check
+
+on:
+  push:
+    branches:
+      - main
+      - chore/**
+    paths:
+      - 'docs/**'
+      - '*.md'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+      - '*.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  doc-validation:
+    name: Validate Markdown & Structure
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify Key Architectural Documents
+        run: |
+          python -c "
+          import os, sys
+          required_docs = [
+              'README.md',
+              'CONTRIBUTING.md',
+              'SECURITY.md',
+              'CHANGELOG.md',
+              'ROADMAP.md',
+              'docs/README.md',
+              'docs/architecture/SYSTEM_ARCHITECTURE.md',
+              'docs/installation/INSTALLATION.md',
+              'docs/operations/OPERATIONS_GUIDE.md',
+              'docs/security/SECURITY_MODEL.md'
+          ]
+          missing = [f for f in required_docs if not os.path.exists(f)]
+          if missing:
+              print(f'Error: Missing required documents: {missing}')
+              sys.exit(1)
+          print('All required architectural documents are present.')
+          "
+
+      - name: Inspect Internal Markdown Link Integrity
+        run: |
+          python -c "
+          import os, re, sys
+          pattern = re.compile(r'\[([^\]]+)\]\(([^)]+)\)')
+          broken = 0
+          for root, _, files in os.walk('docs'):
+              for file in files:
+                  if file.endswith('.md'):
+                      path = os.path.join(root, file)
+                      with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+                          for line_num, line in enumerate(f, 1):
+                              for match in pattern.finditer(line):
+                                  url = match.group(2)
+                                  if url.startswith('http') or url.startswith('#') or url.startswith('mailto:'):
+                                      continue
+                                  target_rel = url.split('#')[0]
+                                  if not target_rel:
+                                      continue
+                                  target_path = os.path.normpath(os.path.join(root, target_rel))
+                                  if not os.path.exists(target_path):
+                                      print(f'Broken link in {path}:{line_num} -> {url}')
+                                      broken += 1
+          if broken > 0:
+              print(f'Warning: {broken} broken local link references detected.')
+          else:
+              print('All local markdown links verified successfully.')
+          "

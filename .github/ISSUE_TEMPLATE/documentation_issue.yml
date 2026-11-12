@@ -1,0 +1,24 @@
+name: Documentation Issue
+description: Report missing, unclear, or outdated documentation
+title: "[DOCS]: "
+labels: ["documentation", "status: needs-triage"]
+body:
+  - type: input
+    id: doc_path
+    attributes:
+      label: Documentation Page / Path
+      placeholder: "e.g., docs/operations/OPERATIONS_GUIDE.md or README.md"
+    validations:
+      required: true
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: Description of the Documentation Gap
+      description: What is inaccurate, missing, or unclear?
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_fix
+    attributes:
+      label: Suggested Correction
+      description: Provide the revised wording or technical command if known.
