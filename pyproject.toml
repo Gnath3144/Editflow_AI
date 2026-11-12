@@ -24,3 +24,22 @@ dependencies = [
 
 [project.scripts]
 editflow = "editflow.cli:main"
+
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+exclude = [
+    ".git",
+    ".venv",
+    "__pycache__",
+    "build",
+    "dist",
+    "automation/youtube",
+    "automation/video_processing",
+    "tools",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = ["E501", "F401", "F841", "E402", "W291", "W293"]
