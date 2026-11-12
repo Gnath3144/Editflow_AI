@@ -1,0 +1,8 @@
+{
+  "min_confidence_score": 0.85,
+  "max_allowed_word_truncation_rate": 0.0,
+  "min_filler_elimination_rate": 0.9,
+  "max_inter_lesson_jump_cut_count": 0,
+  "subtitles_sync_tolerance_ms": 50.0,
+  "require_lesson_objective_hook": true
+}

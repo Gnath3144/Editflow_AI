@@ -1,0 +1,13 @@
+{
+  "target_integrated_lufs": -16.0,
+  "lufs_tolerance_db": 0.5,
+  "max_true_peak_dbtp": -1.5,
+  "max_loudness_range_lu": 6.0,
+  "min_signal_to_noise_ratio_db": 38.0,
+  "highpass_filter_hz": 80.0,
+  "highpass_order": 3,
+  "spectral_denoise_db": -22.0,
+  "compressor_ratio": 2.5,
+  "compressor_attack_ms": 15.0,
+  "compressor_release_ms": 120.0
+}

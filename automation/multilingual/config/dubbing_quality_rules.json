@@ -1,0 +1,6 @@
+{
+  "max_audio_drift_ms": 200.0,
+  "max_subtitle_desync_ms": 50.0,
+  "min_gap_between_sentences_ms": 150.0,
+  "prohibit_sentence_truncation": true
+}

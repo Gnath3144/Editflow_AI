@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DubbingManifest",
+  "type": "object",
+  "required": [
+    "video_id",
+    "source_transcript_hash",
+    "language",
+    "translation_status",
+    "tts_status",
+    "publishing_status"
+  ],
+  "properties": {
+    "video_id": {
+      "type": "string"
+    },
+    "source_transcript_hash": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "translation_status": {
+      "type": "string",
+      "enum": [
+        "PENDING",
+        "IN_PROGRESS",
+        "COMPLETED",
+        "FAILED",
+        "NOT_CONFIGURED"
+      ]
+    },
+    "translation_provider": {
+      "type": "string"
+    },
+    "tts_status": {
+      "type": "string",
+      "enum": [
+        "PENDING",
+        "IN_PROGRESS",
+        "COMPLETED",
+        "FAILED",
+        "NOT_CONFIGURED"
+      ]
+    },
+    "tts_provider": {
+      "type": "string"
+    },
+    "publishing_status": {
+      "type": "string",
+      "enum": [
+        "UNPUBLISHED",
+        "MANUAL_PACKAGE_READY",
+        "AUTOMATED_PUBLISHED",
+        "FAILED"
+      ]
+    },
+    "segments_count": {
+      "type": "integer"
+    },
+    "audio_hash": {
+      "type": "string"
+    },
+    "generated_timestamp": {
+      "type": "string"
+    }
+  }
+}

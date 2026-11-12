@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SpeakerSegment",
+  "type": "object",
+  "required": [
+    "segment_id",
+    "start_time",
+    "end_time",
+    "speaker_role",
+    "similarity_score"
+  ],
+  "properties": {
+    "segment_id": {
+      "type": "string"
+    },
+    "start_time": {
+      "type": "number",
+      "minimum": 0.0
+    },
+    "end_time": {
+      "type": "number",
+      "minimum": 0.0
+    },
+    "speaker_role": {
+      "type": "string",
+      "enum": [
+        "PRIMARY_INSTRUCTOR",
+        "CO_INSTRUCTOR",
+        "PARTICIPANT_CONCEPTUAL",
+        "PARTICIPANT_IRRELEVANT",
+        "BACKGROUND_NOISE",
+        "UNKNOWN"
+      ]
+    },
+    "similarity_score": {
+      "type": "number",
+      "minimum": -1.0,
+      "maximum": 1.0
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

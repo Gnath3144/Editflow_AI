@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LanguageProfile",
+  "type": "object",
+  "required": [
+    "language_id",
+    "display_name",
+    "locale",
+    "family",
+    "script",
+    "text_direction",
+    "translation_requirements",
+    "voice_requirements",
+    "subtitle_requirements"
+  ],
+  "properties": {
+    "language_id": {"type": "string"},
+    "display_name": {"type": "string"},
+    "native_name": {"type": "string"},
+    "locale": {"type": "string", "pattern": "^[a-z]{2}-[A-Z]{2}$"},
+    "family": {"type": "string"},
+    "script": {"type": "string"},
+    "text_direction": {"type": "string", "enum": ["ltr", "rtl"]},
+    "translation_requirements": {"type": "object"},
+    "regional_vocabulary_requirements": {"type": "string"},
+    "spelling_rules": {"type": "string"},
+    "voice_requirements": {
+      "type": "object",
+      "required": ["default_gender", "target_syllable_rate"],
+      "properties": {
+        "default_gender": {"type": "string", "enum": ["Male", "Female"]},
+        "target_syllable_rate": {"type": "number", "minimum": 1.0}
+      }
+    },
+    "subtitle_requirements": {"type": "object"},
+    "pronunciation_requirements": {"type": "string"},
+    "technical_terminology_handling": {"type": "string"},
+    "validation_rules": {"type": "object"},
+    "default_speech_rate_policy": {"type": "object"},
+    "quality_assurance_requirements": {"type": "object"},
+    "extensibility": {"type": "object"}
+  }
+}

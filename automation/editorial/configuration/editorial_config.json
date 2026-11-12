@@ -1,0 +1,23 @@
+{
+  "engine_name": "Codealytica Editorial Intelligence Engine",
+  "version": "1.0.0",
+  "constitution_version": "2026.1",
+  "target_channel_id": "UClHA7HX1h5eWwgfVjt8wb5A",
+  "default_visibility": "UNLISTED",
+  "audio_sample_rate": 48000,
+  "video_fps": 30.0,
+  "video_resolution": [
+    1920,
+    1080
+  ],
+  "video_codec": "h264_nvenc",
+  "audio_codec": "aac",
+  "audio_bitrate": "320k",
+  "crossfade_duration_ms": 12.0,
+  "lead_in_buffer_ms": 80.0,
+  "lead_out_buffer_ms": 120.0,
+  "min_lesson_duration_sec": 300.0,
+  "max_lesson_duration_sec": 1200.0,
+  "max_speaker_leakage_pct": 2.0,
+  "min_instructor_purity_pct": 95.0
+}

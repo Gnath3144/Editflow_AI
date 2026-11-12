@@ -1,0 +1,9 @@
+{
+  "target_integrated_lufs": -16.0,
+  "lufs_tolerance_db": 0.5,
+  "max_true_peak_dbtp": -1.5,
+  "max_loudness_range_lu": 6.0,
+  "min_signal_to_noise_ratio_db": 38.0,
+  "output_sample_rate": 48000,
+  "output_channels": 2
+}

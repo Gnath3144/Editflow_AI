@@ -1,0 +1,7 @@
+{
+  "enforce_glossary": true,
+  "preserve_code_syntax": true,
+  "strip_classroom_crutches": true,
+  "max_length_variance_ratio": 1.35,
+  "model": "gpt-4o / Claude 3.5 Sonnet / Azure Translator"
+}

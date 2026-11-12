@@ -1,0 +1,20 @@
+{
+  "application_name": "Codealytica YouTube Publisher",
+  "version": "1.0.0",
+  "tagline": "Prepare Once. Upload Automatically. Publish Confidently.",
+  "expected_channel_id": "UClHA7HX1h5eWwgfVjt8wb5A",
+  "default_scan_directory": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED",
+  "default_privacy_status": "private",
+  "default_category_id": "27",
+  "default_playlist_title": "Generative AI with Ollama: From Fundamentals to Hands-On Practice | Codealytica",
+  "default_playlist_id": "PLIkXO9w8SPGg",
+  "default_playlist_privacy": "unlisted",
+  "chunk_size_mb": 8,
+  "max_retries": 5,
+  "backoff_factor": 2.0,
+  "default_language": "en",
+  "client_secrets_file": "client_secrets.json",
+  "token_storage_file": "token.json",
+  "database_file": "data/publisher.db",
+  "self_declared_made_for_kids": false
+}

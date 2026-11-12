@@ -1,0 +1,64 @@
+{
+  "tier_1_non_semantic_fillers": {
+    "description": "Pure verbal crutches that convey zero instructional or discourse value. Always target for removal.",
+    "action": "REMOVE",
+    "tokens": [
+      "um",
+      "uh",
+      "er",
+      "ah",
+      "umm",
+      "uhh",
+      "err",
+      "ahh",
+      "like you know",
+      "you know what i mean",
+      "sort of like"
+    ],
+    "min_confidence": 0.88
+  },
+  "tier_2_optional_discourse_markers": {
+    "description": "Conversational bridge words. Remove only when occurring in repetitive clusters or false starts.",
+    "action": "CONTEXTUAL_EVALUATION",
+    "tokens": [
+      "basically",
+      "actually",
+      "so basically",
+      "honestly",
+      "literally",
+      "you see",
+      "right?",
+      "okay?",
+      "got it?",
+      "understood?",
+      "am i clear?",
+      "are you following?",
+      "is my screen visible?"
+    ],
+    "max_density_per_minute": 2.0
+  },
+  "tier_3_meaningful_expressions": {
+    "description": "Legitimate pedagogical signposts and instructional pivots. Always protect and keep.",
+    "action": "KEEP",
+    "tokens": [
+      "for example",
+      "specifically",
+      "in contrast",
+      "therefore",
+      "furthermore",
+      "notice that",
+      "pay attention to",
+      "the key point is",
+      "in this case",
+      "under the hood",
+      "first",
+      "second",
+      "finally",
+      "to summarize"
+    ]
+  },
+  "tier_4_uncertain": {
+    "description": "Ambiguous fragments requiring acoustic safety check or human sign-off.",
+    "action": "HUMAN_REVIEW"
+  }
+}

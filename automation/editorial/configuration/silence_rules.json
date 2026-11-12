@@ -1,0 +1,33 @@
+{
+  "micro_pause": {
+    "min_duration_sec": 0.0,
+    "max_duration_sec": 0.3,
+    "action": "DO_NOT_TOUCH"
+  },
+  "natural_pause": {
+    "min_duration_sec": 0.3,
+    "max_duration_sec": 0.8,
+    "action": "PRESERVE"
+  },
+  "pedagogical_pause": {
+    "min_duration_sec": 0.8,
+    "max_duration_sec": 1.5,
+    "max_allowed_static_sec": 1.2,
+    "action": "PRESERVE_OR_CAP"
+  },
+  "hesitation_silence": {
+    "min_duration_sec": 1.5,
+    "max_duration_sec": 3.0,
+    "target_shortened_sec": 0.4,
+    "action": "SHORTEN"
+  },
+  "dead_air": {
+    "min_duration_sec": 3.0,
+    "target_shortened_sec": 0.5,
+    "action": "CUT_OR_SHORTEN"
+  },
+  "crossfade_settings": {
+    "curve": "hann",
+    "duration_ms": 12.0
+  }
+}

@@ -1,0 +1,574 @@
+{
+  "ta-IN": {
+    "language_id": "tamil",
+    "display_name": "Tamil",
+    "native_name": "தமிழ்",
+    "locale": "ta-IN",
+    "family": "Dravidian",
+    "script": "Tamil",
+    "text_direction": "ltr",
+    "translation_requirements": {
+      "formality": "formal_respectful",
+      "second_person_pronoun": "நீங்கள் (neengal)",
+      "shield_code_blocks": true,
+      "transliterate_technical_verbs": false
+    },
+    "regional_vocabulary_requirements": "Modern formal educational Tamil used in technical universities across Tamil Nadu, Sri Lanka, and Singapore.",
+    "spelling_rules": "Standard Tamil literary orthography (Sentamil standard).",
+    "voice_requirements": {
+      "default_gender": "Male",
+      "preferred_voice_archetype": "Educator_Authoritative",
+      "recommended_pitch_hz": 125,
+      "target_syllable_rate": 5.8
+    },
+    "subtitle_requirements": {
+      "max_characters_per_line": 32,
+      "max_lines": 2,
+      "cpl_limit": 15,
+      "rtl_support": false
+    },
+    "pronunciation_requirements": "Standard English phonetics for all code, variable names, and technical terms; clean Tamil enunciation for pedagogy.",
+    "technical_terminology_handling": "Retain all 38+ protected AI/ML terms in original Latin script with surrounding Tamil grammar.",
+    "validation_rules": {
+      "require_pronoun_check": true,
+      "min_glossary_retention_pct": 100.0
+    },
+    "default_speech_rate_policy": {
+      "base_multiplier": 1.0,
+      "max_allowed_stretch": 1.05
+    },
+    "quality_assurance_requirements": {
+      "max_drift_ms": 200.0,
+      "lufs_target": -16.0
+    },
+    "extensibility": {
+      "variant_locales": [
+        "ta-LK",
+        "ta-SG"
+      ]
+    }
+  },
+  "te-IN": {
+    "language_id": "telugu",
+    "display_name": "Telugu",
+    "native_name": "తెలుగు",
+    "locale": "te-IN",
+    "family": "Dravidian",
+    "script": "Telugu",
+    "text_direction": "ltr",
+    "translation_requirements": {
+      "formality": "formal_respectful",
+      "second_person_pronoun": "మీరు (meeru)",
+      "shield_code_blocks": true,
+      "transliterate_technical_verbs": false
+    },
+    "regional_vocabulary_requirements": "Standard modern technical Telugu for higher technical education.",
+    "spelling_rules": "Standard Telugu orthography (Sishtavyavaharika standard).",
+    "voice_requirements": {
+      "default_gender": "Male",
+      "preferred_voice_archetype": "Educator_Authoritative",
+      "recommended_pitch_hz": 125,
+      "target_syllable_rate": 5.6
+    },
+    "subtitle_requirements": {
+      "max_characters_per_line": 32,
+      "max_lines": 2,
+      "cpl_limit": 15,
+      "rtl_support": false
+    },
+    "pronunciation_requirements": "Retain English pronunciation for libraries, functions, and framework names.",
+    "technical_terminology_handling": "Preserve programming identifiers and CLI commands verbatim in ASCII.",
+    "validation_rules": {
+      "require_pronoun_check": true,
+      "min_glossary_retention_pct": 100.0
+    },
+    "default_speech_rate_policy": {
+      "base_multiplier": 1.0,
+      "max_allowed_stretch": 1.05
+    },
+    "quality_assurance_requirements": {
+      "max_drift_ms": 200.0,
+      "lufs_target": -16.0
+    },
+    "extensibility": {
+      "variant_locales": [
+        "te-IN-AP",
+        "te-IN-TG"
+      ]
+    }
+  },
+  "ml-IN": {
+    "language_id": "malayalam",
+    "display_name": "Malayalam",
+    "native_name": "മലയാളം",
+    "locale": "ml-IN",
+    "family": "Dravidian",
+    "script": "Malayalam",
+    "text_direction": "ltr",
+    "translation_requirements": {
+      "formality": "formal_polite",
+      "second_person_pronoun": "നിങ്ങൾ (ningal)",
+      "shield_code_blocks": true,
+      "transliterate_technical_verbs": false
+    },
+    "regional_vocabulary_requirements": "Formal educational Malayalam suitable for engineering lectures.",
+    "spelling_rules": "Standard Malayalam literary orthography.",
+    "voice_requirements": {
+      "default_gender": "Male",
+      "preferred_voice_archetype": "Educator_Calm",
+      "recommended_pitch_hz": 120,
+      "target_syllable_rate": 6.2
+    },
+    "subtitle_requirements": {
+      "max_characters_per_line": 30,
+      "max_lines": 2,
+      "cpl_limit": 14,
+      "rtl_support": false
+    },
+    "pronunciation_requirements": "Clean phonetics; preserve English acronyms without artificial Malayalam inflection.",
+    "technical_terminology_handling": "Keep acronyms and technical libraries in English.",
+    "validation_rules": {
+      "require_pronoun_check": true,
+      "min_glossary_retention_pct": 100.0
+    },
+    "default_speech_rate_policy": {
+      "base_multiplier": 1.0,
+      "max_allowed_stretch": 1.05
+    },
+    "quality_assurance_requirements": {
+      "max_drift_ms": 200.0,
+      "lufs_target": -16.0
+    },
+    "extensibility": {
+      "variant_locales": []
+    }
+  },
+  "hi-IN": {
+    "language_id": "hindi",
+    "display_name": "Hindi",
+    "native_name": "हिन्दी",
+    "locale": "hi-IN",
+    "family": "Indo-Aryan",
+    "script": "Devanagari",
+    "text_direction": "ltr",
+    "translation_requirements": {
+      "formality": "formal_polite",
+      "second_person_pronoun": "आप (aap)",
+      "shield_code_blocks": true,
+      "transliterate_technical_verbs": false
+    },
+    "regional_vocabulary_requirements": "Standard formal Hindi with natural technical phrasing, avoiding forced Sanskritization or colloquial slang.",
+    "spelling_rules": "Standard modern Hindi orthography.",
+    "voice_requirements": {
+      "default_gender": "Male",
+      "preferred_voice_archetype": "Educator_Clear",
+      "recommended_pitch_hz": 125,
+      "target_syllable_rate": 5.2
+    },
+    "subtitle_requirements": {
+      "max_characters_per_line": 34,
+      "max_lines": 2,
+      "cpl_limit": 16,
+      "rtl_support": false
+    },
+    "pronunciation_requirements": "Use standard Indian English technical pronunciations for code elements.",
+    "technical_terminology_handling": "Do not translate AI, LLM, VRAM, or prompt terms into artificial Hindi neologisms.",
+    "validation_rules": {
+      "require_pronoun_check": true,
+      "min_glossary_retention_pct": 100.0
+    },
+    "default_speech_rate_policy": {
+      "base_multiplier": 1.0,
+      "max_allowed_stretch": 1.08
+    },
+    "quality_assurance_requirements": {
+      "max_drift_ms": 200.0,
+      "lufs_target": -16.0
+    },
+    "extensibility": {
+      "variant_locales": []
+    }
+  },
+  "ur-PK": {
+    "language_id": "urdu",
+    "display_name": "Urdu",
+    "native_name": "اردو",
+    "locale": "ur-PK",
+    "family": "Indo-Aryan",
+    "script": "Nastaliq / Perso-Arabic",
+    "text_direction": "rtl",
+    "translation_requirements": {
+      "formality": "formal_polite",
+      "second_person_pronoun": "آپ (aap)",
+      "shield_code_blocks": true,
+      "transliterate_technical_verbs": false
+    },
+    "regional_vocabulary_requirements": "Standard formal Pakistani Urdu for technical discourse.",
+    "spelling_rules": "Standard Pakistani Urdu orthography with RTL bidirectional text markup.",
+    "voice_requirements": {
+      "default_gender": "Male",
+      "preferred_voice_archetype": "Educator_Articulate",
+      "recommended_pitch_hz": 125,
+      "target_syllable_rate": 5.2
+    },
+    "subtitle_requirements": {
+      "max_characters_per_line": 32,
+      "max_lines": 2,
+      "cpl_limit": 15,
+      "rtl_support": true
+    },
+    "pronunciation_requirements": "Retain English syntax terms in original ASCII pronunciation.",
+    "technical_terminology_handling": "Embed English terms LTR within RTL sentence stream using Unicode Bidi marks.",
+    "validation_rules": {
+      "require_pronoun_check": true,
+      "min_glossary_retention_pct": 100.0,
+      "rtl_bidi_validation": true
+    },
+    "default_speech_rate_policy": {
+      "base_multiplier": 1.0,
+      "max_allowed_stretch": 1.08
+    },
+    "quality_assurance_requirements": {
+      "max_drift_ms": 200.0,
+      "lufs_target": -16.0
+    },
+    "extensibility": {
+      "variant_locales": [
+        "ur-IN"
+      ]
+    }
+  },
+  "zh-CN": {
+    "language_id": "mandarin_chinese",
+    "display_name": "Mandarin Chinese",
+    "native_name": "简体中文",
+    "locale": "zh-CN",
+    "family": "Sinitic",
+    "script": "Simplified Chinese",
+    "text_direction": "ltr",
+    "translation_requirements": {
+      "formality": "formal_standard",
+      "second_person_pronoun": "您 (nin) / 你 (ni)",
+      "shield_code_blocks": true,
+      "transliterate_technical_verbs": false
+    },
+    "regional_vocabulary_requirements": "Standard Mainland Simplified Chinese (Putonghua) computer science terminology.",
+    "spelling_rules": "Standard Mainland Simplified Chinese orthography.",
+    "voice_requirements": {
+      "default_gender": "Male",
+      "preferred_voice_archetype": "Educator_Precise",
+      "recommended_pitch_hz": 130,
+      "target_syllable_rate": 4.0
+    },
+    "subtitle_requirements": {
+      "max_characters_per_line": 24,
+      "max_lines": 2,
+      "cpl_limit": 12,
+      "rtl_support": false
+    },
+    "pronunciation_requirements": "Standard Pinyin tones; crystal clear English enunciation for code keywords.",
+    "technical_terminology_handling": "Keep Python, Docker, PyTorch, and Ollama in original Latin characters.",
+    "validation_rules": {
+      "require_pronoun_check": true,
+      "min_glossary_retention_pct": 100.0
+    },
+    "default_speech_rate_policy": {
+      "base_multiplier": 1.0,
+      "max_allowed_stretch": 1.05
+    },
+    "quality_assurance_requirements": {
+      "max_drift_ms": 200.0,
+      "lufs_target": -16.0
+    },
+    "extensibility": {
+      "supports_traditional_chinese_fallback": true,
+      "variant_locales": [
+        "zh-TW",
+        "zh-HK"
+      ]
+    }
+  },
+  "ja-JP": {
+    "language_id": "japanese",
+    "display_name": "Japanese",
+    "native_name": "日本語",
+    "locale": "ja-JP",
+    "family": "Japonic",
+    "script": "Kanji / Hiragana / Katakana",
+    "text_direction": "ltr",
+    "translation_requirements": {
+      "formality": "polite_keigo",
+      "second_person_pronoun": "Contextual omission or polite address",
+      "shield_code_blocks": true,
+      "transliterate_technical_verbs": false
+    },
+    "regional_vocabulary_requirements": "Standard Tokyo technical Japanese with established Katakana technical loanwords (e.g. トークン, モデル).",
+    "spelling_rules": "Standard modern Japanese orthography with JKT technical style.",
+    "voice_requirements": {
+      "default_gender": "Male",
+      "preferred_voice_archetype": "Educator_Professional",
+      "recommended_pitch_hz": 125,
+      "target_syllable_rate": 7.6
+    },
+    "subtitle_requirements": {
+      "max_characters_per_line": 22,
+      "max_lines": 2,
+      "cpl_limit": 11,
+      "rtl_support": false
+    },
+    "pronunciation_requirements": "Standard mora timing for Japanese sentences; authentic phonetics for code keywords.",
+    "technical_terminology_handling": "Preserve variable names, library references, and command syntax in English.",
+    "validation_rules": {
+      "require_pronoun_check": false,
+      "min_glossary_retention_pct": 100.0
+    },
+    "default_speech_rate_policy": {
+      "base_multiplier": 1.0,
+      "max_allowed_stretch": 1.05
+    },
+    "quality_assurance_requirements": {
+      "max_drift_ms": 200.0,
+      "lufs_target": -16.0
+    },
+    "extensibility": {
+      "variant_locales": []
+    }
+  },
+  "ko-KR": {
+    "language_id": "korean",
+    "display_name": "Korean",
+    "native_name": "한국어",
+    "locale": "ko-KR",
+    "family": "Koreanic",
+    "script": "Hangul",
+    "text_direction": "ltr",
+    "translation_requirements": {
+      "formality": "polite_haeyoche",
+      "second_person_pronoun": "Contextual respectful omission",
+      "shield_code_blocks": true,
+      "transliterate_technical_verbs": false
+    },
+    "regional_vocabulary_requirements": "Standard Seoul Korean IT/AI terminology.",
+    "spelling_rules": "Standard National Institute of Korean Language orthography.",
+    "voice_requirements": {
+      "default_gender": "Male",
+      "preferred_voice_archetype": "Educator_Clear",
+      "recommended_pitch_hz": 125,
+      "target_syllable_rate": 6.5
+    },
+    "subtitle_requirements": {
+      "max_characters_per_line": 25,
+      "max_lines": 2,
+      "cpl_limit": 13,
+      "rtl_support": false
+    },
+    "pronunciation_requirements": "Standard Korean phonetics with clear English technical enunciation.",
+    "technical_terminology_handling": "Keep programming commands and models in English ASCII.",
+    "validation_rules": {
+      "require_pronoun_check": false,
+      "min_glossary_retention_pct": 100.0
+    },
+    "default_speech_rate_policy": {
+      "base_multiplier": 1.0,
+      "max_allowed_stretch": 1.05
+    },
+    "quality_assurance_requirements": {
+      "max_drift_ms": 200.0,
+      "lufs_target": -16.0
+    },
+    "extensibility": {
+      "variant_locales": []
+    }
+  },
+  "ms-MY": {
+    "language_id": "bahasa_melayu",
+    "display_name": "Bahasa Melayu",
+    "native_name": "Bahasa Melayu",
+    "locale": "ms-MY",
+    "family": "Austronesian",
+    "script": "Rumi (Latin)",
+    "text_direction": "ltr",
+    "translation_requirements": {
+      "formality": "formal_standard",
+      "second_person_pronoun": "anda",
+      "shield_code_blocks": true,
+      "transliterate_technical_verbs": false
+    },
+    "regional_vocabulary_requirements": "Actual standard Malaysian Malay (Bahasa Melayu Baku). Do not substitute generic English with a Malaysian accent.",
+    "spelling_rules": "Dewan Bahasa dan Pustaka (DBP) standard spelling.",
+    "voice_requirements": {
+      "default_gender": "Male",
+      "preferred_voice_archetype": "Educator_Warm",
+      "recommended_pitch_hz": 125,
+      "target_syllable_rate": 5.4
+    },
+    "subtitle_requirements": {
+      "max_characters_per_line": 34,
+      "max_lines": 2,
+      "cpl_limit": 16,
+      "rtl_support": false
+    },
+    "pronunciation_requirements": "Clear standard Malay phonetics; retain English pronunciation for technical code.",
+    "technical_terminology_handling": "Preserve all technical programming terms verbatim in English.",
+    "validation_rules": {
+      "require_pronoun_check": true,
+      "min_glossary_retention_pct": 100.0
+    },
+    "default_speech_rate_policy": {
+      "base_multiplier": 1.0,
+      "max_allowed_stretch": 1.05
+    },
+    "quality_assurance_requirements": {
+      "max_drift_ms": 200.0,
+      "lufs_target": -16.0
+    },
+    "extensibility": {
+      "variant_locales": [
+        "id-ID"
+      ]
+    }
+  },
+  "en-SG": {
+    "language_id": "singapore_english",
+    "display_name": "Singapore English",
+    "native_name": "Singapore English",
+    "locale": "en-SG",
+    "family": "Germanic",
+    "script": "Latin",
+    "text_direction": "ltr",
+    "translation_requirements": {
+      "formality": "professional_international",
+      "second_person_pronoun": "you",
+      "shield_code_blocks": true,
+      "transliterate_technical_verbs": false
+    },
+    "regional_vocabulary_requirements": "Professionally understandable Singapore English. Do not exaggerate Singlish particles; preserve professional instructional language.",
+    "spelling_rules": "British English spelling convention (colour, initialise, programme).",
+    "voice_requirements": {
+      "default_gender": "Male",
+      "preferred_voice_archetype": "Educator_Asian_Professional",
+      "recommended_pitch_hz": 125,
+      "target_syllable_rate": 4.8
+    },
+    "subtitle_requirements": {
+      "max_characters_per_line": 36,
+      "max_lines": 2,
+      "cpl_limit": 17,
+      "rtl_support": false
+    },
+    "pronunciation_requirements": "Neutral professional Southeast Asian / Singaporean English accent.",
+    "technical_terminology_handling": "Standard English computer science vernacular.",
+    "validation_rules": {
+      "require_pronoun_check": true,
+      "min_glossary_retention_pct": 100.0
+    },
+    "default_speech_rate_policy": {
+      "base_multiplier": 1.0,
+      "max_allowed_stretch": 1.08
+    },
+    "quality_assurance_requirements": {
+      "max_drift_ms": 200.0,
+      "lufs_target": -16.0
+    },
+    "extensibility": {
+      "variant_locales": []
+    }
+  },
+  "en-GB": {
+    "language_id": "british_english",
+    "display_name": "British English",
+    "native_name": "British English",
+    "locale": "en-GB",
+    "family": "Germanic",
+    "script": "Latin",
+    "text_direction": "ltr",
+    "translation_requirements": {
+      "formality": "professional_standard",
+      "second_person_pronoun": "you",
+      "shield_code_blocks": true,
+      "transliterate_technical_verbs": false
+    },
+    "regional_vocabulary_requirements": "British technical spelling and appropriate Commonwealth terminology.",
+    "spelling_rules": "Oxford British English orthography.",
+    "voice_requirements": {
+      "default_gender": "Male",
+      "preferred_voice_archetype": "Educator_Received_Pronunciation",
+      "recommended_pitch_hz": 120,
+      "target_syllable_rate": 4.6
+    },
+    "subtitle_requirements": {
+      "max_characters_per_line": 36,
+      "max_lines": 2,
+      "cpl_limit": 17,
+      "rtl_support": false
+    },
+    "pronunciation_requirements": "Received Pronunciation (RP) / Standard Southern British.",
+    "technical_terminology_handling": "Standard international technical terminology.",
+    "validation_rules": {
+      "require_pronoun_check": true,
+      "min_glossary_retention_pct": 100.0
+    },
+    "default_speech_rate_policy": {
+      "base_multiplier": 1.0,
+      "max_allowed_stretch": 1.08
+    },
+    "quality_assurance_requirements": {
+      "max_drift_ms": 200.0,
+      "lufs_target": -16.0
+    },
+    "extensibility": {
+      "variant_locales": [
+        "en-AU",
+        "en-NZ"
+      ]
+    }
+  },
+  "en-US": {
+    "language_id": "american_english",
+    "display_name": "American English",
+    "native_name": "American English",
+    "locale": "en-US",
+    "family": "Germanic",
+    "script": "Latin",
+    "text_direction": "ltr",
+    "translation_requirements": {
+      "formality": "professional_standard",
+      "second_person_pronoun": "you",
+      "shield_code_blocks": true,
+      "transliterate_technical_verbs": false
+    },
+    "regional_vocabulary_requirements": "Standard General American technical vocabulary.",
+    "spelling_rules": "Merriam-Webster standard American English orthography.",
+    "voice_requirements": {
+      "default_gender": "Male",
+      "preferred_voice_archetype": "Educator_General_American",
+      "recommended_pitch_hz": 120,
+      "target_syllable_rate": 4.7
+    },
+    "subtitle_requirements": {
+      "max_characters_per_line": 36,
+      "max_lines": 2,
+      "cpl_limit": 17,
+      "rtl_support": false
+    },
+    "pronunciation_requirements": "General American rhotic pronunciation.",
+    "technical_terminology_handling": "Standard US tech industry vernacular.",
+    "validation_rules": {
+      "require_pronoun_check": true,
+      "min_glossary_retention_pct": 100.0
+    },
+    "default_speech_rate_policy": {
+      "base_multiplier": 1.0,
+      "max_allowed_stretch": 1.08
+    },
+    "quality_assurance_requirements": {
+      "max_drift_ms": 200.0,
+      "lufs_target": -16.0
+    },
+    "extensibility": {
+      "variant_locales": [
+        "en-CA"
+      ]
+    }
+  }
+}

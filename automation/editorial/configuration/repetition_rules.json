@@ -1,0 +1,28 @@
+{
+  "exact_repetition": {
+    "enabled": true,
+    "ngram_sizes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "max_intervening_silence_sec": 1.5,
+    "action": "KEEP_CLEANEST_INSTANCE"
+  },
+  "near_repetition": {
+    "enabled": true,
+    "similarity_threshold": 0.85,
+    "max_window_sec": 8.0,
+    "action": "KEEP_FINAL_DELIVERY"
+  },
+  "false_starts": {
+    "enabled": true,
+    "detect_cut_off_tokens": true,
+    "action": "TRIM_FALSE_START"
+  },
+  "pedagogical_reinforcement_exception": {
+    "enabled": true,
+    "description": "Preserve repetition if separated by over 30 seconds or accompanied by distinct code/slide actions."
+  }
+}

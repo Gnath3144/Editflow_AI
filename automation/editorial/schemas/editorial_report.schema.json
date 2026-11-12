@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EditorialReport",
+  "type": "object",
+  "required": [
+    "source_file",
+    "raw_duration_sec",
+    "master_duration_sec",
+    "time_saved_sec",
+    "retention_pct",
+    "decisions_count",
+    "lessons"
+  ],
+  "properties": {
+    "source_file": {
+      "type": "string"
+    },
+    "raw_duration_sec": {
+      "type": "number"
+    },
+    "master_duration_sec": {
+      "type": "number"
+    },
+    "time_saved_sec": {
+      "type": "number"
+    },
+    "retention_pct": {
+      "type": "number"
+    },
+    "decisions_count": {
+      "type": "integer"
+    },
+    "lessons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "lesson_index",
+          "title",
+          "start_time",
+          "end_time",
+          "duration_sec"
+        ],
+        "properties": {
+          "lesson_index": {
+            "type": "integer"
+          },
+          "title": {
+            "type": "string"
+          },
+          "start_time": {
+            "type": "number"
+          },
+          "end_time": {
+            "type": "number"
+          },
+          "duration_sec": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  }
+}

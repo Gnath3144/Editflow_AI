@@ -1,0 +1,38 @@
+[
+  {
+    "decision_id": "DEC-0001",
+    "start_time": 0.0,
+    "end_time": 2266.7,
+    "duration": 2266.7,
+    "action": "REMOVE",
+    "category": "Pre-Class Open Mic & Dead Air",
+    "confidence": 0.99,
+    "rule_reference": "EDITORIAL_CONSTITUTION:LAW_3",
+    "semantic_impact": "Eliminated 37m46s of open microphone ambient noise and dead air before instructor began lecturing.",
+    "crossfade_ms": 0.0
+  },
+  {
+    "decision_id": "DEC-0002",
+    "start_time": 2450.12,
+    "end_time": 2453.8,
+    "duration": 3.68,
+    "action": "SHORTEN",
+    "category": "Hesitation & Terminal Searching",
+    "confidence": 0.92,
+    "rule_reference": "PAUSE_AND_SILENCE_POLICY:SEC_1",
+    "semantic_impact": "Shortened 3.68s stalled terminal silence down to 0.40s natural transition pause.",
+    "crossfade_ms": 12.0
+  },
+  {
+    "decision_id": "DEC-0003",
+    "start_time": 2510.45,
+    "end_time": 2511.2,
+    "duration": 0.75,
+    "action": "REMOVE",
+    "category": "Verbal Filler",
+    "confidence": 0.94,
+    "rule_reference": "EDITING_DECISION_POLICY:SEC_1",
+    "semantic_impact": "Removed isolated 'um, ah' vocal crutch between clause boundaries without cutting phonemes.",
+    "crossfade_ms": 10.0
+  }
+]

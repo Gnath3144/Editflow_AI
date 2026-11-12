@@ -1,0 +1,86 @@
+{
+  "telugu": {
+    "code": "te",
+    "name": "Telugu",
+    "expansion_factor": 1.18,
+    "syllable_rate": 5.8,
+    "pause_buffer_ms": 250
+  },
+  "hindi": {
+    "code": "hi",
+    "name": "Hindi",
+    "expansion_factor": 1.12,
+    "syllable_rate": 5.2,
+    "pause_buffer_ms": 200
+  },
+  "tamil": {
+    "code": "ta",
+    "name": "Tamil",
+    "expansion_factor": 1.2,
+    "syllable_rate": 6.0,
+    "pause_buffer_ms": 250
+  },
+  "kannada": {
+    "code": "kn",
+    "name": "Kannada",
+    "expansion_factor": 1.16,
+    "syllable_rate": 5.6,
+    "pause_buffer_ms": 250
+  },
+  "malayalam": {
+    "code": "ml",
+    "name": "Malayalam",
+    "expansion_factor": 1.22,
+    "syllable_rate": 6.2,
+    "pause_buffer_ms": 300
+  },
+  "marathi": {
+    "code": "mr",
+    "name": "Marathi",
+    "expansion_factor": 1.14,
+    "syllable_rate": 5.4,
+    "pause_buffer_ms": 200
+  },
+  "bengali": {
+    "code": "bn",
+    "name": "Bengali",
+    "expansion_factor": 1.15,
+    "syllable_rate": 5.5,
+    "pause_buffer_ms": 200
+  },
+  "gujarati": {
+    "code": "gu",
+    "name": "Gujarati",
+    "expansion_factor": 1.13,
+    "syllable_rate": 5.3,
+    "pause_buffer_ms": 200
+  },
+  "spanish": {
+    "code": "es",
+    "name": "Spanish",
+    "expansion_factor": 1.15,
+    "syllable_rate": 7.8,
+    "pause_buffer_ms": 200
+  },
+  "french": {
+    "code": "fr",
+    "name": "French",
+    "expansion_factor": 1.16,
+    "syllable_rate": 7.1,
+    "pause_buffer_ms": 200
+  },
+  "german": {
+    "code": "de",
+    "name": "German",
+    "expansion_factor": 1.1,
+    "syllable_rate": 5.5,
+    "pause_buffer_ms": 150
+  },
+  "japanese": {
+    "code": "ja",
+    "name": "Japanese",
+    "expansion_factor": 1.05,
+    "syllable_rate": 8.0,
+    "pause_buffer_ms": 150
+  }
+}

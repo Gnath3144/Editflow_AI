@@ -1,0 +1,24 @@
+[
+  {
+    "decision_id": "REJ-0001",
+    "start_time": 2310.0,
+    "end_time": 2310.8,
+    "duration": 0.8,
+    "action": "REMOVE",
+    "category": "Forbidden Cut on Pedagogical Pause",
+    "confidence": 0.4,
+    "rule_reference": "PAUSE_AND_SILENCE_POLICY:SEC_1",
+    "rejection_reason": "Attempted to cut a 0.8s deliberate pause immediately following presentation of a complex JSON schema definition. Violates cognitive processing rule."
+  },
+  {
+    "decision_id": "REJ-0002",
+    "start_time": 2680.1,
+    "end_time": 2680.3,
+    "duration": 0.2,
+    "action": "REMOVE",
+    "category": "Forbidden Unbuffered Word Boundary Cut",
+    "confidence": 0.35,
+    "rule_reference": "SEMANTIC_CONTINUITY_STANDARD:SEC_1",
+    "rejection_reason": "Proposed cut boundary sits 5ms before initial plosive /p/ in 'pydantic'. Would result in clipped speech."
+  }
+]

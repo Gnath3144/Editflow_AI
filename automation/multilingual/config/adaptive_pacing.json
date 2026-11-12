@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "english_master": {
+    "policy_tiers": {
+      "natural_pace": 1.00,
+      "slightly_slow": 1.04,
+      "noticeably_slow": 1.08,
+      "unusually_slow": 1.10,
+      "absolute_maximum": 1.12
+    },
+    "preferred_maximum": 1.08,
+    "absolute_maximum": 1.12,
+    "protected_contexts": [
+      "complex_technical_concept",
+      "introducing_new_term",
+      "demonstrating_code",
+      "mathematical_logical_reasoning",
+      "emphasising_important_point",
+      "step_by_step_instructions",
+      "reading_code_commands",
+      "deliberate_rhetorical_pause",
+      "difficult_example"
+    ]
+  },
+  "localized_speech": {
+    "pitch_preserving": true,
+    "allowed_stretch_range": [0.85, 1.15],
+    "default_crossfade_ms": 15.0,
+    "rollback_threshold_clarity": 0.80
+  }
+}

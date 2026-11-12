@@ -1,0 +1,29 @@
+{
+  "primary_instructor": {
+    "name": "Gopinath Kshatriya",
+    "role": "PRIMARY_INSTRUCTOR",
+    "min_similarity_threshold": 0.82,
+    "action": "PROTECT_AND_MASTER",
+    "vocal_presence_boost_db": 2.5
+  },
+  "co_instructor": {
+    "role": "CO_INSTRUCTOR",
+    "min_similarity_threshold": 0.8,
+    "action": "KEEP_AND_LEVEL"
+  },
+  "participant_question": {
+    "role": "PARTICIPANT_CONCEPTUAL",
+    "min_pedagogical_score": 0.7,
+    "action": "RETAIN_AS_CONTEXT",
+    "level_to_lufs": -16.0
+  },
+  "participant_chatter": {
+    "role": "PARTICIPANT_IRRELEVANT",
+    "action": "STRIP_COMPLETELY"
+  },
+  "diarization_engine": {
+    "algorithm": "resemblyzer_pytorch_stft",
+    "feature_rate_hz": 100,
+    "frame_step_ms": 10
+  }
+}

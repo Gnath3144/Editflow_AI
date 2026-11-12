@@ -1,0 +1,66 @@
+{
+  "engine": "Azure_Cognitive_Services_Speech",
+  "fallback_engine": "ElevenLabs",
+  "profiles": {
+    "ta-IN": {
+      "provider_voice_id": "ta-IN-ValluvarNeural",
+      "style": "General",
+      "sample_rate": 48000
+    },
+    "te-IN": {
+      "provider_voice_id": "te-IN-MohanNeural",
+      "style": "General",
+      "sample_rate": 48000
+    },
+    "ml-IN": {
+      "provider_voice_id": "ml-IN-MidhunNeural",
+      "style": "General",
+      "sample_rate": 48000
+    },
+    "hi-IN": {
+      "provider_voice_id": "hi-IN-MadhurNeural",
+      "style": "General",
+      "sample_rate": 48000
+    },
+    "ur-PK": {
+      "provider_voice_id": "ur-PK-AsadNeural",
+      "style": "General",
+      "sample_rate": 48000
+    },
+    "zh-CN": {
+      "provider_voice_id": "zh-CN-YunxiNeural",
+      "style": "General",
+      "sample_rate": 48000
+    },
+    "ja-JP": {
+      "provider_voice_id": "ja-JP-KeitaNeural",
+      "style": "General",
+      "sample_rate": 48000
+    },
+    "ko-KR": {
+      "provider_voice_id": "ko-KR-InJoonNeural",
+      "style": "General",
+      "sample_rate": 48000
+    },
+    "ms-MY": {
+      "provider_voice_id": "ms-MY-OsmanNeural",
+      "style": "General",
+      "sample_rate": 48000
+    },
+    "en-SG": {
+      "provider_voice_id": "en-SG-WayneNeural",
+      "style": "General",
+      "sample_rate": 48000
+    },
+    "en-GB": {
+      "provider_voice_id": "en-GB-RyanNeural",
+      "style": "General",
+      "sample_rate": 48000
+    },
+    "en-US": {
+      "provider_voice_id": "en-US-GuyNeural",
+      "style": "General",
+      "sample_rate": 48000
+    }
+  }
+}

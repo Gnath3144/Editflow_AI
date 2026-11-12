@@ -1,24 +1,56 @@
-# Pipeline audit artifacts — internal only, do not publish
-FORK_REPORT.md
-SANITIZATION_REPORT.md
+# Editflow AI Git Exclusion Rules
 
-# Local env
-.env
-
-# Python
-__pycache__/
-*.pyc
+# Virtual Environments
 .venv/
 venv/
+ENV/
 
-# Editor / OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
 
-# Sample/output media
+# Local Credentials and Secrets
+.env
+*.pem
+*.key
+client_secret*.json
+client_secrets*.json
+token*.json
+oauth*.json
+!*.example
+
+# Media Files and Output Renders
 *.mp4
 *.mov
 *.mkv
+*.wav
+*.mp3
+*.aac
+*.flac
 *.ass
+*.srt
+*.vtt
+
+# Media Folders
+media/
+output/edited_videos/
+output/multilingual/
+output/youtube_packages/
+output/thumbnails/
+
+# Runtime Data and Logs
+logs/*.log
+!logs/.gitkeep
+data/job_state/*.json
+!data/job_state/.gitkeep
+data/caches/*
+!data/caches/.gitkeep
+
+# Operating System & IDE
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store

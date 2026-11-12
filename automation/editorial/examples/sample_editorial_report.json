@@ -1,0 +1,45 @@
+{
+  "source_file": "Gen Ai Day 02.mp4",
+  "raw_duration_sec": 6119.0,
+  "master_duration_sec": 2722.0,
+  "time_saved_sec": 3397.0,
+  "retention_pct": 44.48,
+  "decisions_count": 528,
+  "lessons": [
+    {
+      "lesson_index": 1,
+      "title": "The Structured Output Challenge",
+      "start_time": 2266.7,
+      "end_time": 2700.0,
+      "duration_sec": 422.0
+    },
+    {
+      "lesson_index": 2,
+      "title": "LLM Message Roles Demystified",
+      "start_time": 2700.0,
+      "end_time": 3230.0,
+      "duration_sec": 518.0
+    },
+    {
+      "lesson_index": 3,
+      "title": "Set Up VS Code & Project Workspace",
+      "start_time": 3230.0,
+      "end_time": 3720.0,
+      "duration_sec": 489.0
+    },
+    {
+      "lesson_index": 4,
+      "title": "Run Llama 3.2 in VS Code Terminal",
+      "start_time": 3720.0,
+      "end_time": 4440.0,
+      "duration_sec": 715.0
+    },
+    {
+      "lesson_index": 5,
+      "title": "Local Model Lifecycle & VRAM Sizing",
+      "start_time": 4440.0,
+      "end_time": 5020.0,
+      "duration_sec": 578.0
+    }
+  ]
+}

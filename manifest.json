@@ -1,0 +1,445 @@
+{
+  "series_title": "Generative AI with Ollama: From Fundamentals to Hands-On Practice | Codealytica",
+  "playlist_id": "PLIkXO9w8SPGg",
+  "channel_id": "UClHA7HX1h5eWwgfVjt8wb5A",
+  "default_privacy": "private",
+  "total_lessons": 6,
+  "lessons": [
+    {
+      "lesson_number": 1,
+      "folder_name": "Lesson_01",
+      "folder_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_01",
+      "video_file": "Day01_Lesson01_Introduction_to_Local_AI_and_Ollama.mp4",
+      "video_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_01\\Day01_Lesson01_Introduction_to_Local_AI_and_Ollama.mp4",
+      "file_size_bytes": 42409336,
+      "file_hash_sha256": "66fd9d3010395a4e48467c283fa40d8e397f7398363fed80b873ba44aea43b85",
+      "title": "Install Local AI on Windows in 3 Minutes with Ollama | Zero Cloud Cost Setup",
+      "description": "Install Local AI on Windows in 3 Minutes with Ollama | Zero Cloud Cost Setup\n\nIn this opening hands-on lesson of the Codealytica AI/ML training series, instructor Gopinath introduces the fundamentals of local artificial intelligence. We bypass theoretical slide decks and jump straight into setting up Ollama on Windows using both the official installer and automated PowerShell commands. Discover why running open-source large language models locally eliminates cloud API costs, guarantees complete data privacy, and delivers instant offline inference.\n\nInstructor: Gopinath\nBrand: Codealytica | CODE. ANALYZE. BUILD. GROW.\nSeries: Generative AI & LLM Engineering Masterclass (Day 01)\n\n==================================================\nTIMESTAMPS / CHAPTERS\n==================================================\n00:00 Course Vision & Hands-On AI Philosophy\n00:54 Fast-Track Jump to Ollama\n01:04 Ollama.com Navigation & Platform Support\n01:29 Manual GUI vs PowerShell CLI Install\n01:44 Download Footprint (1.5GB)\n01:49 PowerShell Administrator Installation\n02:02 Master Definition: Local AI vs Cloud AI (Privacy & Cost)\n03:02 Automated Setup Verification\n03:07 Account Sign-in Optional for Local Privacy\n03:13 Next Lesson & Codealytica Outro\n\n==================================================\nKEY LEARNING OUTCOMES\n==================================================\n• Establish the practical engineering philosophy: hands-on local experimentation over slides.\n• Navigate ollama.com and understand cross-platform local AI architecture.\n• Compare manual GUI installation with automated PowerShell administrator script setup.\n• Deconstruct local AI vs cloud API infrastructure: zero latency roundtrips, zero subscription cost, and absolute offline data privacy.\n• Verify the unattended installation without requiring mandatory account creation or cloud telemetry.\n\n==================================================\nOFFICIAL RESOURCES & WORKSPACE\n==================================================\n• Official Ollama Website: https://ollama.com\n• Codealytica Community & Repository: https://github.com/Codealytica\n• Next Lesson in Playlist: LESSON 02: MODEL ARCHITECTURES, PARAMETERS & GEMMA 2B\n\n#LocalAI #Ollama #GenerativeAI #MachineLearning #Codealytica #Gopinath #ArtificialIntelligence",
+      "tags": [
+        "LocalAI",
+        "Ollama",
+        "GenerativeAI",
+        "MachineLearning",
+        "Codealytica",
+        "Gopinath",
+        "ArtificialIntelligence"
+      ],
+      "category_id": "27",
+      "privacy_status": "private",
+      "made_for_kids": false,
+      "language": "en",
+      "thumbnail_file": "Day01_Lesson01_Introduction_to_Local_AI_and_Ollama_Selected_Frame.png",
+      "thumbnail_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_01\\Day01_Lesson01_Introduction_to_Local_AI_and_Ollama_Selected_Frame.png",
+      "thumbnail_size_bytes": 468369,
+      "subtitle_file": "Day01_Lesson01_Introduction_to_Local_AI_and_Ollama.srt",
+      "subtitle_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_01\\Day01_Lesson01_Introduction_to_Local_AI_and_Ollama.srt",
+      "subtitle_language": "en",
+      "transcript_file": null,
+      "transcript_path": null,
+      "chapters": [
+        {
+          "timestamp": "00:00",
+          "title": "Course Vision & Hands-On AI Philosophy"
+        },
+        {
+          "timestamp": "00:54",
+          "title": "Fast-Track Jump to Ollama"
+        },
+        {
+          "timestamp": "01:04",
+          "title": "Ollama.com Navigation & Platform Support"
+        },
+        {
+          "timestamp": "01:29",
+          "title": "Manual GUI vs PowerShell CLI Install"
+        },
+        {
+          "timestamp": "01:44",
+          "title": "Download Footprint (1.5GB)"
+        },
+        {
+          "timestamp": "01:49",
+          "title": "PowerShell Administrator Installation"
+        },
+        {
+          "timestamp": "02:02",
+          "title": "Master Definition: Local AI vs Cloud AI (Privacy & Cost)"
+        },
+        {
+          "timestamp": "03:02",
+          "title": "Automated Setup Verification"
+        },
+        {
+          "timestamp": "03:07",
+          "title": "Account Sign-in Optional for Local Privacy"
+        },
+        {
+          "timestamp": "03:13",
+          "title": "Next Lesson & Codealytica Outro"
+        }
+      ],
+      "links": [],
+      "call_to_action": "",
+      "validation": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "is_duplicate": false
+      }
+    },
+    {
+      "lesson_number": 2,
+      "folder_name": "Lesson_02",
+      "folder_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_02",
+      "video_file": "Day01_Lesson02_Model_Architectures_Parameters_and_Gemma.mp4",
+      "video_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_02\\Day01_Lesson02_Model_Architectures_Parameters_and_Gemma.mp4",
+      "file_size_bytes": 18513492,
+      "file_hash_sha256": "87fa4967d293f65f167285a03e3ddd88f1082d2a815348253651ef58bda8f175",
+      "title": "Google Gemma 2B Architecture & Parameters Explained | Local LLM Deep Dive",
+      "description": "Google Gemma 2B Architecture & Parameters Explained | Local LLM Deep Dive\n\nIn this technical deep-dive, instructor Gopinath demystifies large language model parameter counts, open weights, and local execution. We verify the Ollama CLI daemon, deconstruct the 'ollama run gemma:2b' command, and explain Google's Gemma architecture. Learn what 'E2B' (Effective 2 Billion) parameters signify in memory and compute, explore practical quantization, and master the foundational Music Player Analogy ('Ollama is the music player, Gemma is the song').\n\nInstructor: Gopinath\nBrand: Codealytica | CODE. ANALYZE. BUILD. GROW.\nSeries: Generative AI & LLM Engineering Masterclass (Day 01)\n\n==================================================\nTIMESTAMPS / CHAPTERS\n==================================================\n00:00 CLI Daemon Check: ollama --version\n00:11 Pulling Gemma 2B & CLI Syntax Deconstructed\n01:03 Google Gemma Open-Weights & Local Reasoning\n01:27 E2B: Effective 2 Billion Parameters & Quantization\n01:57 Model Sizing, Python Code Gen & Multimodal Vision\n02:53 Hardware Portability: Running AI from USB Pen Drive\n03:12 The Music Player Analogy (Ollama = Player, Gemma = Song)\n03:39 Next Lesson & Codealytica Outro\n\n==================================================\nKEY LEARNING OUTCOMES\n==================================================\n• Verify active Ollama background services via command line: `ollama --version`.\n• Deconstruct model execution syntax: `ollama run <model>:<tag>`.\n• Understand model parameter sizing and what 2B parameters represent in hardware RAM/VRAM.\n• Explore Google Gemma open-weights capabilities: Python code generation, reasoning, and multimodal vision.\n• Discover hardware portability techniques: running local AI models directly from a USB pen drive.\n• Master the Music Player Analogy to internalize the distinction between model runners and model weights.\n\n==================================================\nOFFICIAL RESOURCES & WORKSPACE\n==================================================\n• Official Ollama Website: https://ollama.com\n• Codealytica Community & Repository: https://github.com/Codealytica\n• Next Lesson in Playlist: LESSON 03: LIGHTWEIGHT MODELS FOR LOW-SPEC HARDWARE\n\n#LocalAI #Ollama #GenerativeAI #MachineLearning #Codealytica #Gopinath #ArtificialIntelligence",
+      "tags": [
+        "LocalAI",
+        "Ollama",
+        "GenerativeAI",
+        "MachineLearning",
+        "Codealytica",
+        "Gopinath",
+        "ArtificialIntelligence"
+      ],
+      "category_id": "27",
+      "privacy_status": "private",
+      "made_for_kids": false,
+      "language": "en",
+      "thumbnail_file": "Day01_Lesson02_Model_Architectures_Parameters_and_Gemma_Selected_Frame.png",
+      "thumbnail_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_02\\Day01_Lesson02_Model_Architectures_Parameters_and_Gemma_Selected_Frame.png",
+      "thumbnail_size_bytes": 396689,
+      "subtitle_file": "Day01_Lesson02_Model_Architectures_Parameters_and_Gemma.srt",
+      "subtitle_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_02\\Day01_Lesson02_Model_Architectures_Parameters_and_Gemma.srt",
+      "subtitle_language": "en",
+      "transcript_file": null,
+      "transcript_path": null,
+      "chapters": [
+        {
+          "timestamp": "00:00",
+          "title": "CLI Daemon Check: ollama --version"
+        },
+        {
+          "timestamp": "00:11",
+          "title": "Pulling Gemma 2B & CLI Syntax Deconstructed"
+        },
+        {
+          "timestamp": "01:03",
+          "title": "Google Gemma Open-Weights & Local Reasoning"
+        },
+        {
+          "timestamp": "01:27",
+          "title": "E2B: Effective 2 Billion Parameters & Quantization"
+        },
+        {
+          "timestamp": "01:57",
+          "title": "Model Sizing, Python Code Gen & Multimodal Vision"
+        },
+        {
+          "timestamp": "02:53",
+          "title": "Hardware Portability: Running AI from USB Pen Drive"
+        },
+        {
+          "timestamp": "03:12",
+          "title": "The Music Player Analogy (Ollama = Player, Gemma = Song)"
+        },
+        {
+          "timestamp": "03:39",
+          "title": "Next Lesson & Codealytica Outro"
+        }
+      ],
+      "links": [],
+      "call_to_action": "",
+      "validation": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "is_duplicate": false
+      }
+    },
+    {
+      "lesson_number": 3,
+      "folder_name": "Lesson_03",
+      "folder_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_03",
+      "video_file": "Day01_Lesson03_Lightweight_Models_for_Low_Spec_Hardware.mp4",
+      "video_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_03\\Day01_Lesson03_Lightweight_Models_for_Low_Spec_Hardware.mp4",
+      "file_size_bytes": 6718212,
+      "file_hash_sha256": "71e3e932ff3fe3ee018b0d77b4c7bd4b2924e4b7cad4e1ccb40ff8385db7047b",
+      "title": "Run Local LLMs on an 8GB RAM Laptop | Qwen 2.5 0.5B Setup Guide",
+      "description": "Run Local LLMs on an 8GB RAM Laptop | Qwen 2.5 0.5B Setup Guide\n\nYou don't need a high-end workstation or dedicated GPU to build local AI applications. In this tactical lesson, instructor Gopinath demonstrates how students on standard 8GB RAM laptops can run state-of-the-art open-source AI models. We download and deploy Alibaba's ultra-compact Qwen 2.5 0.5B model (~398MB footprint) in seconds and configure a dual-terminal environment for side-by-side benchmarking.\n\nInstructor: Gopinath\nBrand: Codealytica | CODE. ANALYZE. BUILD. GROW.\nSeries: Generative AI & LLM Engineering Masterclass (Day 01)\n\n==================================================\nTIMESTAMPS / CHAPTERS\n==================================================\n00:00 Hardware Sizing for 8GB RAM Laptops\n00:13 Deploying Qwen 2.5 0.5B (~398MB Footprint)\n01:02 Dual-Model Testing Framework Setup\n01:17 Next Lesson & Codealytica Outro\n\n==================================================\nKEY LEARNING OUTCOMES\n==================================================\n• Overcome hardware constraints on 8GB RAM laptops using compact quantized models.\n• Deploy Alibaba's Qwen 2.5 0.5B model (~398MB footprint) with a single command.\n• Understand the trade-offs between memory footprint, inference speed, and parameter scale.\n• Configure a parallel testing environment to benchmark a 300MB model against a 3GB model.\n\n==================================================\nOFFICIAL RESOURCES & WORKSPACE\n==================================================\n• Official Ollama Website: https://ollama.com\n• Codealytica Community & Repository: https://github.com/Codealytica\n• Next Lesson in Playlist: LESSON 04: LIVE PROMPT EXECUTION & GPU MONITORING\n\n#LocalAI #Ollama #GenerativeAI #MachineLearning #Codealytica #Gopinath #ArtificialIntelligence",
+      "tags": [
+        "LocalAI",
+        "Ollama",
+        "GenerativeAI",
+        "MachineLearning",
+        "Codealytica",
+        "Gopinath",
+        "ArtificialIntelligence"
+      ],
+      "category_id": "27",
+      "privacy_status": "private",
+      "made_for_kids": false,
+      "language": "en",
+      "thumbnail_file": "Day01_Lesson03_Lightweight_Models_for_Low_Spec_Hardware_Selected_Frame.png",
+      "thumbnail_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_03\\Day01_Lesson03_Lightweight_Models_for_Low_Spec_Hardware_Selected_Frame.png",
+      "thumbnail_size_bytes": 409985,
+      "subtitle_file": "Day01_Lesson03_Lightweight_Models_for_Low_Spec_Hardware.srt",
+      "subtitle_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_03\\Day01_Lesson03_Lightweight_Models_for_Low_Spec_Hardware.srt",
+      "subtitle_language": "en",
+      "transcript_file": null,
+      "transcript_path": null,
+      "chapters": [
+        {
+          "timestamp": "00:00",
+          "title": "Hardware Sizing for 8GB RAM Laptops"
+        },
+        {
+          "timestamp": "00:13",
+          "title": "Deploying Qwen 2.5 0.5B (~398MB Footprint)"
+        },
+        {
+          "timestamp": "01:02",
+          "title": "Dual-Model Testing Framework Setup"
+        },
+        {
+          "timestamp": "01:17",
+          "title": "Next Lesson & Codealytica Outro"
+        }
+      ],
+      "links": [],
+      "call_to_action": "",
+      "validation": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "is_duplicate": false
+      }
+    },
+    {
+      "lesson_number": 4,
+      "folder_name": "Lesson_04",
+      "folder_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_04",
+      "video_file": "Day01_Lesson04_Live_Prompt_Execution_and_Hardware_Monitoring.mp4",
+      "video_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_04\\Day01_Lesson04_Live_Prompt_Execution_and_Hardware_Monitoring.mp4",
+      "file_size_bytes": 23363781,
+      "file_hash_sha256": "1294088c52661132e410a33e173f60910d1373eb745792278563bcb25edad222",
+      "title": "Local AI Benchmark & Windows Task Manager GPU Monitoring | Live LLM Test",
+      "description": "Local AI Benchmark & Windows Task Manager GPU Monitoring | Live LLM Test\n\nIn this hands-on engineering demonstration, instructor Gopinath executes identical prompts simultaneously across Qwen 0.5B and Gemma 2B. We open Windows Task Manager (Ctrl + Shift + Esc) during active inference to inspect real-time hardware telemetry. Discover why local LLMs utilize 35%+ of the dedicated NVIDIA GPU while integrated Intel graphics and general CPU remain untouched, and learn how to optimize local inference on everyday laptops.\n\nInstructor: Gopinath\nBrand: Codealytica | CODE. ANALYZE. BUILD. GROW.\nSeries: Generative AI & LLM Engineering Masterclass (Day 01)\n\n==================================================\nTIMESTAMPS / CHAPTERS\n==================================================\n00:00 Launching Dual-Model Live Prompt Execution\n00:23 Side-by-Side Prompt Execution (Qwen 0.5B vs Gemma 2B)\n01:00 Hardware Dependency: GPU, CPU, and RAM Constraints\n01:40 Task Manager Shortcut: Ctrl + Shift + Esc\n01:46 Performance Tab: Dedicated GPU vs Integrated Intel GPU (35%+ Compute Load)\n02:59 Why Large Models Require Dedicated VRAM & Memory Bandwidth\n03:18 Optimizing for Basic 8GB/16GB Laptops\n03:25 Next Lesson & Codealytica Outro\n\n==================================================\nKEY LEARNING OUTCOMES\n==================================================\n• Execute parallel prompt benchmarking across models with different parameter scales.\n• Observe live token generation streaming and latency differences in real time.\n• Monitor hardware utilization in Windows Task Manager Performance tab (`Ctrl + Shift + Esc`).\n• Understand GPU compute distribution: why matrix multiplications offload to dedicated VRAM.\n• Analyze system bottlenecks: VRAM capacity, memory bandwidth, and CPU fallback.\n\n==================================================\nOFFICIAL RESOURCES & WORKSPACE\n==================================================\n• Official Ollama Website: https://ollama.com\n• Codealytica Community & Repository: https://github.com/Codealytica\n• Next Lesson in Playlist: LESSON 05: MODEL COMPARISON BENCHMARK & THE STAR ANALOGY\n\n#LocalAI #Ollama #GenerativeAI #MachineLearning #Codealytica #Gopinath #ArtificialIntelligence",
+      "tags": [
+        "LocalAI",
+        "Ollama",
+        "GenerativeAI",
+        "MachineLearning",
+        "Codealytica",
+        "Gopinath",
+        "ArtificialIntelligence"
+      ],
+      "category_id": "27",
+      "privacy_status": "private",
+      "made_for_kids": false,
+      "language": "en",
+      "thumbnail_file": "Day01_Lesson04_Live_Prompt_Execution_and_Hardware_Monitoring_Selected_Frame.png",
+      "thumbnail_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_04\\Day01_Lesson04_Live_Prompt_Execution_and_Hardware_Monitoring_Selected_Frame.png",
+      "thumbnail_size_bytes": 638514,
+      "subtitle_file": "Day01_Lesson04_Live_Prompt_Execution_and_Hardware_Monitoring.srt",
+      "subtitle_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_04\\Day01_Lesson04_Live_Prompt_Execution_and_Hardware_Monitoring.srt",
+      "subtitle_language": "en",
+      "transcript_file": null,
+      "transcript_path": null,
+      "chapters": [
+        {
+          "timestamp": "00:00",
+          "title": "Launching Dual-Model Live Prompt Execution"
+        },
+        {
+          "timestamp": "00:23",
+          "title": "Side-by-Side Prompt Execution (Qwen 0.5B vs Gemma 2B)"
+        },
+        {
+          "timestamp": "01:00",
+          "title": "Hardware Dependency: GPU, CPU, and RAM Constraints"
+        },
+        {
+          "timestamp": "01:40",
+          "title": "Task Manager Shortcut: Ctrl + Shift + Esc"
+        },
+        {
+          "timestamp": "01:46",
+          "title": "Performance Tab: Dedicated GPU vs Integrated Intel GPU (35%+ Compute Load)"
+        },
+        {
+          "timestamp": "02:59",
+          "title": "Why Large Models Require Dedicated VRAM & Memory Bandwidth"
+        },
+        {
+          "timestamp": "03:18",
+          "title": "Optimizing for Basic 8GB/16GB Laptops"
+        },
+        {
+          "timestamp": "03:25",
+          "title": "Next Lesson & Codealytica Outro"
+        }
+      ],
+      "links": [],
+      "call_to_action": "",
+      "validation": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "is_duplicate": false
+      }
+    },
+    {
+      "lesson_number": 5,
+      "folder_name": "Lesson_05",
+      "folder_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_05",
+      "video_file": "Day01_Lesson05_Model_Comparison_Benchmark_and_The_Star_Analogy.mp4",
+      "video_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_05\\Day01_Lesson05_Model_Comparison_Benchmark_and_The_Star_Analogy.mp4",
+      "file_size_bytes": 28941426,
+      "file_hash_sha256": "02d38e2e3fd89bb61a7c070157fa8d17cc8c3f5a251545be6f77e8210598b78c",
+      "title": "Small vs Large AI Models: The Star Analogy Explained | Model Sizing Guide",
+      "description": "Small vs Large AI Models: The Star Analogy Explained | Model Sizing Guide\n\nDoes a bigger model always give a better answer? In this landmark pedagogical lesson, instructor Gopinath tests both models 100% offline with a complex creative reasoning riddle. He introduces 'The Star Analogy'—comparing how a Science student (atmospheric physics) and an Arts student (poetic metaphor) explain twinkling stars—to provide an intuitive decision matrix for matching model sizes to business applications.\n\nInstructor: Gopinath\nBrand: Codealytica | CODE. ANALYZE. BUILD. GROW.\nSeries: Generative AI & LLM Engineering Masterclass (Day 01)\n\n==================================================\nTIMESTAMPS / CHAPTERS\n==================================================\n00:00 Creative Reasoning Challenge & Offline Execution Test\n00:44 Local Inference Latency: Mathematical Analysis vs Quick Formulation\n01:26 The Star Analogy: Science Student (Atmospheric Physics) vs Arts Student (Poetic Myth)\n02:31 Speed vs Quality Tradeoffs: Matching Model Scale to Business Use Case\n03:30 Practical Benchmarking: Straightforward Answers vs Heavy Computation\n04:07 Next Lesson & Codealytica Outro\n\n==================================================\nKEY LEARNING OUTCOMES\n==================================================\n• Verify 100% offline autonomous inference with zero internet connection.\n• Analyze reasoning latency: fast formulation vs deep mathematical analysis.\n• Master The Star Analogy: Science Student (atmospheric physics) vs Arts Student (poetic myth).\n• Establish an enterprise model selection matrix: when to prioritize speed (398MB) vs analytical depth (3.5GB).\n• Understand qualitative trade-offs between concise outputs and rich multi-step reasoning.\n\n==================================================\nOFFICIAL RESOURCES & WORKSPACE\n==================================================\n• Official Ollama Website: https://ollama.com\n• Codealytica Community & Repository: https://github.com/Codealytica\n• Next Lesson in Playlist: LESSON 06: GENERATIVE AI FUNDAMENTALS, 3 RULES & CONCLUSION\n\n#LocalAI #Ollama #GenerativeAI #MachineLearning #Codealytica #Gopinath #ArtificialIntelligence",
+      "tags": [
+        "LocalAI",
+        "Ollama",
+        "GenerativeAI",
+        "MachineLearning",
+        "Codealytica",
+        "Gopinath",
+        "ArtificialIntelligence"
+      ],
+      "category_id": "27",
+      "privacy_status": "private",
+      "made_for_kids": false,
+      "language": "en",
+      "thumbnail_file": "Day01_Lesson05_Model_Comparison_Benchmark_and_The_Star_Analogy_Selected_Frame.png",
+      "thumbnail_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_05\\Day01_Lesson05_Model_Comparison_Benchmark_and_The_Star_Analogy_Selected_Frame.png",
+      "thumbnail_size_bytes": 767237,
+      "subtitle_file": "Day01_Lesson05_Model_Comparison_Benchmark_and_The_Star_Analogy.srt",
+      "subtitle_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_05\\Day01_Lesson05_Model_Comparison_Benchmark_and_The_Star_Analogy.srt",
+      "subtitle_language": "en",
+      "transcript_file": null,
+      "transcript_path": null,
+      "chapters": [
+        {
+          "timestamp": "00:00",
+          "title": "Creative Reasoning Challenge & Offline Execution Test"
+        },
+        {
+          "timestamp": "00:44",
+          "title": "Local Inference Latency: Mathematical Analysis vs Quick Formulation"
+        },
+        {
+          "timestamp": "01:26",
+          "title": "The Star Analogy: Science Student (Atmospheric Physics) vs Arts Student (Poetic Myth)"
+        },
+        {
+          "timestamp": "02:31",
+          "title": "Speed vs Quality Tradeoffs: Matching Model Scale to Business Use Case"
+        },
+        {
+          "timestamp": "03:30",
+          "title": "Practical Benchmarking: Straightforward Answers vs Heavy Computation"
+        },
+        {
+          "timestamp": "04:07",
+          "title": "Next Lesson & Codealytica Outro"
+        }
+      ],
+      "links": [],
+      "call_to_action": "",
+      "validation": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "is_duplicate": false
+      }
+    },
+    {
+      "lesson_number": 6,
+      "folder_name": "Lesson_06",
+      "folder_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_06",
+      "video_file": "Day01_Lesson06_Generative_AI_Fundamentals_3_Golden_Rules_and_Conclusion.mp4",
+      "video_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_06\\Day01_Lesson06_Generative_AI_Fundamentals_3_Golden_Rules_and_Conclusion.mp4",
+      "file_size_bytes": 39667900,
+      "file_hash_sha256": "c7c30f7448723c4d4b5c769fe00b63e5dec657b4c2732366344d5d9e10005ee4",
+      "title": "Generative AI vs Traditional AI Explained + 3 Golden Rules | Day 01 Finale",
+      "description": "Generative AI vs Traditional AI Explained + 3 Golden Rules | Day 01 Finale\n\nIn this inspiring Day 01 finale, instructor Gopinath grounds our practical local experiments in core computer science theory. Using the 5-role thought experiment (poem, poster, song, Python code, executive presentation), we deconstruct the architectural distinction between Traditional Predictive AI (spam classification, churn) and Generative AI synthesis. Gopinath delivers his 3 Golden Rules of Applied AI, democratizes AI learning ('Start with what you have'), and delivers his official concluding remarks.\n\nInstructor: Gopinath\nBrand: Codealytica | CODE. ANALYZE. BUILD. GROW.\nSeries: Generative AI & LLM Engineering Masterclass (Day 01)\n\n==================================================\nTIMESTAMPS / CHAPTERS\n==================================================\n00:00 Multi-Role Thought Experiment: Generating Text, Code, Images & Presentations\n01:09 Traditional AI (Predictive SMS / Classification) Explained\n02:22 Traditional AI vs Generative AI: Classification (Spam/Churn) vs Synthesis\n03:16 Core Architectural Distinction: Predictive Recognition vs Content Creation\n03:47 Day 01 Reflection: Experimentation & Local AI Confidence\n04:23 The 3 Golden Rules: AI is a Tool, Prompt Quality Matters, Never Trust Blindly\n05:05 Democratizing AI: Start with the Laptop You Have\n05:37 Thought Challenge: Identifying Real-World Applied AI Opportunities\n06:07 Philosophical Closing & The Official Final Thank You\n06:28 Next Lesson & Codealytica Outro\n\n==================================================\nKEY LEARNING OUTCOMES\n==================================================\n• Deconstruct the 5-role thought experiment: synthesizing text, code, imagery, and presentations.\n• Understand Traditional Predictive AI: classification, pattern matching, and spam/churn estimation.\n• Master Generative AI: probability token sampling and creating novel content from scratch.\n• Internalize The 3 Golden Rules: AI is a tool not magic, instruction quality matters, never trust AI blindly.\n• Embrace the democratization of AI: learn on everyday hardware without expensive cloud rigs.\n• Complete Day 01 with Gopinath's philosophical concluding guidance.\n\n==================================================\nOFFICIAL RESOURCES & WORKSPACE\n==================================================\n• Official Ollama Website: https://ollama.com\n• Codealytica Community & Repository: https://github.com/Codealytica\n• Next Lesson in Playlist: UP NEXT: DAY 02 — ADVANCED PROMPTING & LOCAL AGENTS\n\n#LocalAI #Ollama #GenerativeAI #MachineLearning #Codealytica #Gopinath #ArtificialIntelligence",
+      "tags": [
+        "LocalAI",
+        "Ollama",
+        "GenerativeAI",
+        "MachineLearning",
+        "Codealytica",
+        "Gopinath",
+        "ArtificialIntelligence"
+      ],
+      "category_id": "27",
+      "privacy_status": "private",
+      "made_for_kids": false,
+      "language": "en",
+      "thumbnail_file": "Day01_Lesson06_Generative_AI_Fundamentals_3_Golden_Rules_and_Conclusion_Selected_Frame.png",
+      "thumbnail_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_06\\Day01_Lesson06_Generative_AI_Fundamentals_3_Golden_Rules_and_Conclusion_Selected_Frame.png",
+      "thumbnail_size_bytes": 803603,
+      "subtitle_file": "Day01_Lesson06_Generative_AI_Fundamentals_3_Golden_Rules_and_Conclusion.srt",
+      "subtitle_path": "D:\\Codealytica\\Enhanced_Videos\\AIML_Day01\\YOUTUBE_UPLOAD_READY_CORRECTED\\Lesson_06\\Day01_Lesson06_Generative_AI_Fundamentals_3_Golden_Rules_and_Conclusion.srt",
+      "subtitle_language": "en",
+      "transcript_file": null,
+      "transcript_path": null,
+      "chapters": [
+        {
+          "timestamp": "00:00",
+          "title": "Multi-Role Thought Experiment: Generating Text, Code, Images & Presentations"
+        },
+        {
+          "timestamp": "01:09",
+          "title": "Traditional AI (Predictive SMS / Classification) Explained"
+        },
+        {
+          "timestamp": "02:22",
+          "title": "Traditional AI vs Generative AI: Classification (Spam/Churn) vs Synthesis"
+        },
+        {
+          "timestamp": "03:16",
+          "title": "Core Architectural Distinction: Predictive Recognition vs Content Creation"
+        },
+        {
+          "timestamp": "03:47",
+          "title": "Day 01 Reflection: Experimentation & Local AI Confidence"
+        },
+        {
+          "timestamp": "04:23",
+          "title": "The 3 Golden Rules: AI is a Tool, Prompt Quality Matters, Never Trust Blindly"
+        },
+        {
+          "timestamp": "05:05",
+          "title": "Democratizing AI: Start with the Laptop You Have"
+        },
+        {
+          "timestamp": "05:37",
+          "title": "Thought Challenge: Identifying Real-World Applied AI Opportunities"
+        },
+        {
+          "timestamp": "06:07",
+          "title": "Philosophical Closing & The Official Final Thank You"
+        },
+        {
+          "timestamp": "06:28",
+          "title": "Next Lesson & Codealytica Outro"
+        }
+      ],
+      "links": [],
+      "call_to_action": "",
+      "validation": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "is_duplicate": false
+      }
+    }
+  ]
+}
